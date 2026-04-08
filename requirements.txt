@@ -1,0 +1,30 @@
+# ============================================================
+# requirements.txt — Projet CNN RadioML 2016.10a
+# ============================================================
+# Installation : pip install -r requirements.txt
+# ============================================================
+
+# ── Core scientifique ──────────────────────────────────────
+numpy>=1.23.0
+scipy>=1.9.0
+
+# ── Deep Learning ─────────────────────────────────────────
+# CPU uniquement (version légère) :
+torch>=2.0.0
+# Pour GPU (CUDA 11.8), remplacer la ligne ci-dessus par :
+# torch>=2.0.0+cu118  --index-url https://download.pytorch.org/whl/cu118
+
+# ── Machine Learning & Prétraitement ──────────────────────
+scikit-learn>=1.2.0
+
+# ── Visualisation ─────────────────────────────────────────
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# ── Notebook ──────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.0.0
+tqdm>=4.64.0
+
+# ── Optionnel : déploiement démo ──────────────────────────
+# streamlit>=1.25.0
